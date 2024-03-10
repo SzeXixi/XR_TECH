@@ -1,0 +1,14 @@
+{
+    "name": "Rokid.XR.Core",
+    "references": [
+        "Unity.XR.Management"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

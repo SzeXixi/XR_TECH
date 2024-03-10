@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\XR_TECH\\XR_Project\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-zh-rMO\\values-zh-rMO.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\xmy\\.gradle\\caches\\transforms-2\\files-2.1\\a40bafefadec64c826f5a54ad1a31cec\\glassdevice-phone-1.3.5-20231009.092418-7\\res\\values-zh-rMO\\values-zh-rMO.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "68",
+                        "endOffsets": "119"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "name": "com.rokid.xr.unity",
+    "displayName": "Rokid UXR SDK",
+    "version": "2.3.12",
+    "unity": "2020.3",
+	"author": "Rokid",
+    "description": "Provides SDK for Rokid Glass.",
+    "keywords": [
+        "rokid",
+        "ar",
+        "xr",
+        "reality",
+        "xreditorsubsystem"
+    ],
+    "dependencies": {
+        "com.unity.modules.ui": "1.0.0",
+        "com.unity.modules.imgui": "1.0.0",
+        "com.unity.xr.management": "4.2.0",
+        "com.rokid.xr.core": "1.22.3",
+        "com.unity.xr.legacyinputhelpers": "2.1.10",
+        "com.unity.nuget.newtonsoft-json": "3.0.1"
+    },
+    "samples": [
+        {
+            "displayName": "UXR Sample",
+            "path": "UXRSamples~"
+        }
+    ]
+}

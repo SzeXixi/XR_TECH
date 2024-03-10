@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cancel">取消</string>
+    <string name="exit">退出</string>
+    <string name="exit_app">确认退出当前应用？</string>
+    <string name="need_notification_permission">请打开应用通知权限!</string>
+    <string name="no_camera_permission">没有授予 Camera 权限!</string>
+    <string name="not_support_camera">当前设备不支持相机功能!</string>
+    <string name="open_no_air">请在Rokid AR应用中打开</string>
+    <string name="require_air_launcher_version">请在 Air Launcher %1$s及以上版本打开应用</string>
+    <string name="reset_ray">重置射线</string>
+    <string name="toast_permission_external">请在手机上进行USB设备授权</string>
+    <string name="unlock_operation_text">双击屏幕解锁</string>
+    <string name="uxr_usbdevice_disconnected">设备已断开连接</string>
+</resources>

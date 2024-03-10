@@ -1,0 +1,149 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player"
+5    android:versionCode="1"
+6    android:versionName="0.1" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="26"
+9-->E:\XR_TECH\XR_Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="30" />
+10-->E:\XR_TECH\XR_Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml
+11
+12    <uses-feature
+12-->E:\XR_TECH\XR_Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:3-96
+13        android:name="android.hardware.sensor.accelerometer"
+13-->E:\XR_TECH\XR_Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:17-69
+14        android:required="true" />
+14-->E:\XR_TECH\XR_Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:70-93
+15    <uses-feature
+15-->E:\XR_TECH\XR_Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:3-92
+16        android:name="android.hardware.sensor.gyroscope"
+16-->E:\XR_TECH\XR_Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:17-65
+17        android:required="true" />
+17-->E:\XR_TECH\XR_Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:66-89
+18    <uses-feature android:name="android.hardware.usb.host" />
+18-->E:\XR_TECH\XR_Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:3-60
+18-->E:\XR_TECH\XR_Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:17-57
+19
+20    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+20-->E:\XR_TECH\XR_Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:3-78
+20-->E:\XR_TECH\XR_Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:20-75
+21    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+21-->E:\XR_TECH\XR_Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:3-79
+21-->E:\XR_TECH\XR_Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:20-76
+22    <uses-permission android:name="android.permission.CAMERA" />
+22-->E:\XR_TECH\XR_Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:3-63
+22-->E:\XR_TECH\XR_Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:20-60
+23    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+23-->E:\XR_TECH\XR_Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:3-69
+23-->E:\XR_TECH\XR_Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:20-66
+24
+25    <uses-feature android:glEsVersion="0x00030000" />
+25-->E:\XR_TECH\XR_Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:3-52
+25-->E:\XR_TECH\XR_Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:17-49
+26
+27    <uses-permission android:name="android.permission.INTERNET" />
+27-->E:\XR_TECH\XR_Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:3-65
+27-->E:\XR_TECH\XR_Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:20-62
+28
+29    <uses-feature
+29-->E:\XR_TECH\XR_Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:3-88
+30        android:name="android.hardware.touchscreen"
+30-->E:\XR_TECH\XR_Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:17-60
+31        android:required="false" />
+31-->E:\XR_TECH\XR_Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:61-85
+32    <uses-feature
+32-->E:\XR_TECH\XR_Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:3-99
+33        android:name="android.hardware.touchscreen.multitouch"
+33-->E:\XR_TECH\XR_Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:17-71
+34        android:required="false" />
+34-->E:\XR_TECH\XR_Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:72-96
+35    <uses-feature
+35-->E:\XR_TECH\XR_Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:3-108
+36        android:name="android.hardware.touchscreen.multitouch.distinct"
+36-->E:\XR_TECH\XR_Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:17-80
+37        android:required="false" />
+37-->E:\XR_TECH\XR_Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:81-105
+38
+39    <application
+39-->E:\XR_TECH\XR_Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:3-24:17
+40        android:extractNativeLibs="true"
+40-->E:\XR_TECH\XR_Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:60-92
+41        android:requestLegacyExternalStorage="true" >
+41-->E:\XR_TECH\XR_Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:16-59
+42        <activity
+42-->E:\XR_TECH\XR_Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:5-18:16
+43            android:name="com.rokid.uxrunityplugin.UXRActivity"
+43-->E:\XR_TECH\XR_Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:15-66
+44            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+44-->E:\XR_TECH\XR_Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:178-359
+45            android:hardwareAccelerated="true"
+45-->E:\XR_TECH\XR_Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:395-429
+46            android:launchMode="singleTask"
+46-->E:\XR_TECH\XR_Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:146-177
+47            android:resizeableActivity="false"
+47-->E:\XR_TECH\XR_Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:360-394
+48            android:screenOrientation="portrait"
+48-->E:\XR_TECH\XR_Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:109-145
+49            android:theme="@style/UnityThemeSelector" >
+49-->E:\XR_TECH\XR_Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:67-108
+50            <intent-filter>
+50-->E:\XR_TECH\XR_Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:7-15:23
+51                <action android:name="android.intent.action.MAIN" />
+51-->E:\XR_TECH\XR_Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:9-61
+51-->E:\XR_TECH\XR_Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:17-58
+52
+53                <category android:name="android.intent.category.LAUNCHER" />
+53-->E:\XR_TECH\XR_Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:9-69
+53-->E:\XR_TECH\XR_Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:19-66
+54            </intent-filter>
+55
+56            <meta-data
+56-->E:\XR_TECH\XR_Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:7-82
+57                android:name="unityplayer.UnityActivity"
+57-->E:\XR_TECH\XR_Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:18-58
+58                android:value="true" />
+58-->E:\XR_TECH\XR_Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:59-79
+59            <meta-data
+59-->E:\XR_TECH\XR_Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:7-78
+60                android:name="android.notch_support"
+60-->E:\XR_TECH\XR_Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:18-54
+61                android:value="true" />
+61-->E:\XR_TECH\XR_Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:55-75
+62        </activity>
+63
+64        <meta-data
+64-->E:\XR_TECH\XR_Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:5-69
+65            android:name="unity.splash-mode"
+65-->E:\XR_TECH\XR_Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:16-48
+66            android:value="0" />
+66-->E:\XR_TECH\XR_Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:49-66
+67        <meta-data
+67-->E:\XR_TECH\XR_Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:5-74
+68            android:name="unity.splash-enable"
+68-->E:\XR_TECH\XR_Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:16-50
+69            android:value="True" />
+69-->E:\XR_TECH\XR_Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:51-71
+70        <meta-data
+70-->E:\XR_TECH\XR_Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:5-78
+71            android:name="unity.launch-fullscreen"
+71-->E:\XR_TECH\XR_Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:16-54
+72            android:value="True" />
+72-->E:\XR_TECH\XR_Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:55-75
+73        <meta-data
+73-->E:\XR_TECH\XR_Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:5-84
+74            android:name="unity.allow-resizable-window"
+74-->E:\XR_TECH\XR_Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:16-59
+75            android:value="False" />
+75-->E:\XR_TECH\XR_Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:60-81
+76        <meta-data
+76-->E:\XR_TECH\XR_Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:5-81
+77            android:name="notch.config"
+77-->E:\XR_TECH\XR_Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:16-43
+78            android:value="portrait|landscape" />
+78-->E:\XR_TECH\XR_Project\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:44-78
+79    </application>
+80
+81</manifest>

@@ -1,0 +1,4 @@
+#Sun Mar 10 20:20:10 CST 2024
+base.0=E\:\\XR_TECH\\XR_Project\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
